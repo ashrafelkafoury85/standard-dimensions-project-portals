@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Standard Dimensions | Supervision Project Portals</title>
+  <meta name="description" content="Unified access to Standard Dimensions supervision project portals." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header" id="home">
+  <div class="nav-shell">
+    <a class="brand" href="#home" aria-label="Standard Dimensions home"><img src="assets/logo.png" alt="Standard Dimensions Engineering Consultation" /></a>
+    <nav class="desktop-nav" aria-label="Primary">
+      <a class="active" href="#home">Home</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#support">Support</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions"><button class="icon-btn" id="focusSearch" aria-label="Search">⌕</button><button class="signin" type="button">♙ <span>Sign In</span></button><button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button></div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu"><a href="#home">Home</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#support">Support</a><a href="#contact">Contact</a></div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-media"></div>
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <div class="eyebrow">PEOPLE&nbsp;&nbsp; | &nbsp;&nbsp;PRECISION&nbsp;&nbsp; | &nbsp;&nbsp;PROGRESS</div>
+      <h1>Supervision<br><span>Project Portals</span></h1>
+      <p>Unified access to all supervision platforms</p><div class="accent-line"></div>
+    </div>
+    <div class="hero-copy"><span>BUILDING<br>A BETTER<br>TOMORROW</span><i></i><small>IDEAS<br>PEOPLE<br>PLACES<br>LASTING IMPACT</small></div>
+  </section>
+
+  <section class="portal-section" id="projects">
+    <div class="search-panel">
+      <label class="searchbox"><span>⌕</span><input id="searchInput" placeholder="Search projects by name, location, or keyword..." /></label>
+      <label class="selectbox"><span>▱</span><select id="projectFilter"><option value="all">All Projects</option><option>SADL Project</option><option>Al Kaltham Complex Project</option><option>SAMIM AL MASAR</option><option>NORA TOWER</option></select></label>
+      <label class="selectbox location-filter"><span>⌖</span><select id="locationFilter"><option value="all">All Locations</option><option value="riyadh">Riyadh, KSA</option></select></label>
+      <label class="selectbox"><span>◉</span><select id="statusFilter"><option value="all">All Statuses</option><option value="live">Live</option></select></label>
+      <button class="search-btn" id="searchBtn">Search <span>→</span></button>
+    </div>
+
+    <div class="project-grid" id="projectGrid">
+      <article class="project-card" data-name="sadl project" data-location="riyadh" data-status="live">
+        <a class="photo" href="https://script.google.com/macros/s/AKfycbyYL9W58FX5k-dSsKdydiFOMPpVl_C_kBFQAJWMxtiwjS6E6QWb4I0AXqlYo1Jtik4RnA/exec" target="_blank" rel="noopener"><img src="assets/sadl.jpg" alt="SADL Project"><b class="live"><i></i>Live</b></a>
+        <div class="card-body"><h2>SADL Project</h2><p class="place">● &nbsp;Riyadh, KSA</p><p class="desc">A distinctive mixed-use development with a bold architectural identity.</p><a class="portal-btn" href="https://script.google.com/macros/s/AKfycbyYL9W58FX5k-dSsKdydiFOMPpVl_C_kBFQAJWMxtiwjS6E6QWb4I0AXqlYo1Jtik4RnA/exec" target="_blank" rel="noopener">Open Project Portal <span>→</span></a></div>
+      </article>
+      <article class="project-card" data-name="al kaltham complex project" data-location="riyadh" data-status="live">
+        <a class="photo" href="https://sites.google.com/view/sd-construction-supervision/home" target="_blank" rel="noopener"><img src="assets/al-kaltham.jpg" alt="Al Kaltham Complex Project"><b class="live"><i></i>Live</b></a>
+        <div class="card-body"><h2>Al Kaltham Complex Project</h2><p class="place">● &nbsp;Riyadh, KSA</p><p class="desc">A premier complex designed for modern functionality and timeless elegance.</p><a class="portal-btn" href="https://sites.google.com/view/sd-construction-supervision/home" target="_blank" rel="noopener">Open Project Portal <span>→</span></a></div>
+      </article>
+      <article class="project-card" data-name="samim al masar" data-location="riyadh" data-status="live">
+        <a class="photo" href="https://script.google.com/macros/s/AKfycbwPI9LkXeMG-O68tGqXg5NkxuSbHz4wYkgQBq7V_RFrF8HLPfw3lVK2VSfoMJnkC4E7/exec" target="_blank" rel="noopener"><img src="assets/samim.jpg" alt="SAMIM AL MASAR"><b class="live"><i></i>Live</b></a>
+        <div class="card-body"><h2>SAMIM AL MASAR</h2><p class="place">● &nbsp;Riyadh, KSA</p><p class="desc">A contemporary development redefining urban connectivity.</p><a class="portal-btn" href="https://script.google.com/macros/s/AKfycbwPI9LkXeMG-O68tGqXg5NkxuSbHz4wYkgQBq7V_RFrF8HLPfw3lVK2VSfoMJnkC4E7/exec" target="_blank" rel="noopener">Open Project Portal <span>→</span></a></div>
+      </article>
+      <article class="project-card" data-name="nora tower" data-location="riyadh" data-status="live">
+        <a class="photo" href="https://script.google.com/macros/s/AKfycbyE8V-WDmNePX74tu-x6F_9Gqq9FGYCFCPVR5xYtwT8G3l4MD-8NlfacBIjSdRaqocc/exec" target="_blank" rel="noopener"><img src="assets/nora.jpg" alt="NORA TOWER"><b class="live"><i></i>Live</b></a>
+        <div class="card-body"><h2>NORA TOWER</h2><p class="place">● &nbsp;Riyadh, KSA</p><p class="desc">An iconic tower that brings together innovation, design and opportunity.</p><a class="portal-btn" href="https://script.google.com/macros/s/AKfycbyE8V-WDmNePX74tu-x6F_9Gqq9FGYCFCPVR5xYtwT8G3l4MD-8NlfacBIjSdRaqocc/exec" target="_blank" rel="noopener">Open Project Portal <span>→</span></a></div>
+      </article>
+    </div>
+    <div class="empty" id="emptyState">No projects match your search.</div>
+  </section>
+
+  <section class="info-section" id="about"><div><span>STANDARD DIMENSIONS</span><h3>Engineering supervision, organized around your projects.</h3></div></section>
+</main>
+
+<footer id="contact">
+  <div class="footer-main"><div class="footer-brand"><img src="assets/logo.png" alt="Standard Dimensions"></div><div class="footer-tag">Engineering Better Possibilities</div><nav><a href="#home">Home</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#support">Support</a><a href="#contact">Contact</a></nav><div class="social">in&nbsp;&nbsp;&nbsp;◎&nbsp;&nbsp;&nbsp;▶</div></div>
+  <div class="footer-bottom"><span>© 2026 Standard Dimensions. All rights reserved.</span><b>PEOPLE&nbsp; | &nbsp;PLACES&nbsp; | &nbsp;A BRIGHTER TOMORROW</b></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
